@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <style>
+      body {
+        background-color: rgb(246, 134, 203);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./Assets/header-logo.png" width="200px" alt="epicode-logo" />
+      <h1>Epicode - Il Blog dei Developers</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Articoli</li>
+          <li>Lavora con noi</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div>
+            <h2>
+              Come creare un template per i post di Mario Rossi - pubblicato il
+              25-10-2020
+            </h2>
+            <p>
+              La prima cosa da fare è suddividere in blocchi logici la pagina,
+              identificando le parti comuni da applicare a tutte le pagine
+            </p>
+          </div>
+          <div>
+            <p>Le varie aree saranno quindi suddivise in:</p>
+            <li>Contenuti di intestazione del tag &lt; Header &gt;</li>
+            <li>
+              Contenuti centrali variabili del tag &lt; Main &gt; (corpo
+              principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag &lt; Footer
+              &gt;
+            </li>
+          </div>
+        </article>
+      </section>
+      <section>
+        <p>Formattazione del codice</p>
+
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da selezionare con i CSS. Perciò i passi saranno:
+        </p>
+
+        <ol>
+          <li>
+            Progettare il markup assegnando ad ogni specifico testo il tag
+            appropriato
+          </li>
+
+          <li>
+            Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso
+            il basso
+          </li>
+
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+          la diffusione pressochè totale.
+        </p>
+      </section>
+      <article>
+        <tbody>
+          <style>
+            table {
+              border: 1px solid rgb(255, 255, 255);
+            }
+
+            td {
+              border: 1px solid rgb(255, 255, 255);
+            }
+
+            th {
+              border: 1px solid rgb(255, 255, 255);
+            }
+          </style>
+          <table>
+            <caption>
+              Diffusione dei CSS
+            </caption>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browsers</th>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </table>
+        </tbody>
+        <tfoot>
+          <div>
+            <p>
+              Un test di validazione potrà essere fatto tramite il tool online
+              <a href="#">-LINK ESTERNO-</a> dedicato allo scopo.
+            </p>
+            <p>
+              Una volta ottimizzato il tutto, avremo raggiunto il nostro
+              obiettivo ed essere stati dei developers come loro:
+              <a href="#">-INSERIRE VIDEO YOUTUBE-</a>
+            </p>
+          </div>
+        </tfoot>
+      </article>
+    </main>
+    <h2>
+      Vuoi rimanere aggionato suu altre novità del blog? Iscriviti alla nostra
+      newsletter:
+    </h2>
+    <form>
+      <div>
+        <label for="campo-email">Inserisci il tuo nome:</label>
+        <input
+          type="text"
+          id="campo-email"
+          placeholder="Inserisci E-mail"
+          autofocus
+          required
+        />
+      </div>
+      <div>
+        <button>ISCRIVITI!</button>
+      </div>
+    </form>
+    <div>
+      <p>
+        Articoli correlati <br />
+        Validare il codice HTML <br />
+        Categoria: develop <br />
+        Data: 18-9-2020
+      </p>
+    </div>
+    <div>
+      <p>
+        Correggere la sintassi<br />
+        Categoria: Develop<br />
+        Data: 16-9-2020 <br />
+      </p>
+    </div>
+    <div>
+      <p>
+        Meno Kb nella pagina <br />
+        Categoria: ottimizzazione <br />
+        Data: 30-9-2020
+      </p>
+    </div>
+
+    <footer>
+      <div><p>Blog Epicode &copy;2023</p></div>
+      <div>
+        <p>
+          Testata online di Mario Rossi, Registrata con prot. n.213/2018 -
+          Milano. P.IVA 00112233.
+        </p>
+      </div>
+      <div>
+        <p>
+          info@epicode.school <a href="info@epicode.school">-LINK EMAIL-</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
